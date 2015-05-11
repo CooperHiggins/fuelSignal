@@ -13,10 +13,12 @@ a,
 a:focus,
 
 a:active {
-  color: blue;
+  color: orange;
+  text-decoration: none;
 }
 a:hover {
-  color: orange;
+  color: white;
+  text-decoration: none;
 }
 
 li {
@@ -56,7 +58,23 @@ input.form-control {
 }
 
 .container-fluid.active {
-  background-color: black;
+  background-color: #343434;
+  color: white;
+}
+
+.container-fluid.active.black {
+  background-color: #075196;
+}
+.container-fluid.active.blue {
+  background-color: #075196;
+}
+
+.grey1 {
+  background-color: #383838;
+}
+
+.blue {
+  background-color: #075196;
 }
 /*
  * Base structure
@@ -264,7 +282,7 @@ p.lead.left {
 .car {
   width: 100%;
   text-align: center;
-  
+  padding-right: 50%;
   position: relative;
   top: 50%;
   left: 0;
@@ -275,10 +293,10 @@ p.lead.left {
 .car-fixed {
   width: 100%;
   text-align: center;
-  
   /*top: 190px;*/
-  left: 0;
+  /*left: 0;*/
   z-index: 900;
+  top: 100;
   pointer-events: none;
   position: fixed;
 
@@ -289,7 +307,8 @@ p.lead.left {
 }
 
 .affix-top {
-  position: relative;
+  position: fixed;
+  margin-top: 50%;
   
 }
 
@@ -358,7 +377,7 @@ div.inner.cover {
 
 .col-md-4.left {
   text-align: left;
-  padding-left: 52px;
+  padding-left: 80px;
 }
 
 .right {
@@ -400,9 +419,9 @@ h2.featurette-heading.left {
 }
 
 img.featurette-image.img-responsive.center-block {
-  float: right;
+  
   height: 270px;
-  margin: 50px;
+  margin: 0px;
 }
 
 
@@ -527,7 +546,7 @@ img.featurette-image.img-responsive.center-block {
 }
 
 .cover {
-  padding: 136px 46px 0px 0px;
+  padding: 90px 46px 0px 0px;
   position: absolute;
   color: black;
 }
