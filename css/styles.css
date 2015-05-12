@@ -321,10 +321,9 @@ p.lead.left {
 Text over video
 */
 .cover-heading {
-  font-size: 3.6em;
-  padding-top: 60px;
+  font-size: 5.6em;
+  padding-top: 5%;
 }
-
 div.inner.cover {
   font-family: 'Roboto', sans-serif;
   width: 100%;
@@ -419,9 +418,7 @@ h2.featurette-heading.left {
 }
 
 img.featurette-image.img-responsive.center-block {
-  
   height: 270px;
-  margin-left: 30%;
 }
 
 
@@ -491,12 +488,12 @@ img.featurette-image.img-responsive.center-block {
 /*
  * Cover
  */
-@media (max-width: 750px) {
-  .cover-heading {
-    display: none;
-    
-      }
+@media (max-width: 375px) {
+.cover-heading {
+  /* display: none; */
+  font-size: 2.5em;
   }
+}
 .cover {
   
 }
@@ -678,9 +675,7 @@ p.news {
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
+ 
 
 @media (min-width: 392px) {
   .featurette-header {
