@@ -283,7 +283,8 @@ p.lead.left {
 }
 
 .applinks {
-  padding-top: 10%;
+  padding: 1%;
+  
 }
 
 /*Car animation*/
@@ -457,6 +458,10 @@ a.signup.btn.btn-lg {
   color: black;
   border: 3px solid #0D52BE;
   height: 50px;
+}
+
+.signup {
+  margin-top: 30px;
 }
 
 /*FAQ*/
