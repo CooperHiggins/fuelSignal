@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $('.nav');
@@ -14,15 +16,21 @@ $(document).ready(function(){
    });
 });
 
-
-$('.car').affix({
-  offset: {
-    top: 100,
-    bottom: function () {
-      return (this.bottom = $('.footer').outerHeight(true))
-    }
-  }
-})
+$(document).ready(function(){       
+   var scroll_start = 50;
+   var startchange = $('.car');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.car').css('position', 'fixed' );
+          
+       } else {
+          $('.car').css('position', 'relative' );
+          $('.car').css( );
+        }
+   });
+});
 
 jQuery(document).ready(function() {
     $('.story')                            // Filter: .stories
