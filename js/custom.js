@@ -16,21 +16,21 @@ $(document).ready(function(){
    });
 });
 
-$(document).ready(function(){       
-   var scroll_start = 50;
-   var startchange = $('.car');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $('.car').css('position', 'fixed' );
-          
-       } else {
-          $('.car').css('position', 'relative' );
-          $('.car').css( );
-        }
-   });
+$(window).scroll(function(e){ 
+  $el = $('.car'); 
+  if ($(this).scrollTop() > 700 && $el.css('position') != 'fixed'){ 
+    $('.car').css({'position': 'fixed', 'top': '200px'}); 
+  }
+  if ($(this).scrollTop() < 700 && $el.css('position') == 'fixed')
+  {
+    $('.car').css({'position': 'relative', 'top': '0px'}); 
+  } 
 });
+
+
+
+
+
 
 jQuery(document).ready(function() {
     $('.story')                            // Filter: .stories
