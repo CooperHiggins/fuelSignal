@@ -349,14 +349,6 @@ p.news {
   
 }
 
-img.road {
-  position: absolute;
-  text-align: left;
-  float: left;
-  right: 590px;
-}
-
-
 /*
 Text over video
 */
@@ -435,6 +427,12 @@ img.featurette-image.img-responsive.center-block {
 }
 .circle-pic-home {
   height: 320px;
+}
+
+h1.featurette-header.space-top.left {
+  text-align: left;
+  padding-left: 40px;
+
 }
 
 h2.featurette-heading.left {
