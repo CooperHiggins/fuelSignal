@@ -332,11 +332,18 @@ p.news {
 /*Car animation*/
 
 .car {
-    width: 100px;
-    position: absolute;
-    top:0;
-    z-index:100;
-    right: 47%;
+  width: 95px;
+  z-index: 100;
+  position: absolute;
+}
+img.road {
+  position: absolute;
+  height: 1662px;
+  width: 94px;
+}
+
+.col-lg-12 {
+  width: 93%;
 }
 
 .affix {

@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){       
-   var scroll_start = 0;
+   var scroll_start = 10;
    var startchange = $('.nav');
    var offset = startchange.offset();
    $(document).scroll(function() { 
@@ -23,13 +23,13 @@ $(window).scroll(function(e){
   $el = $('.car'); 
   if ($(this).scrollTop() > 700 && $el.css('position') != 'fixed'){ 
     $('.car').css({'position': 'fixed', 'top': '200px'});
-    $('.car').css({'right': '47%', });
+    // $('.car').css({'right': '47%', });
 
   }
   if ($(this).scrollTop() < 700 && $el.css('position') == 'fixed')
   {
     $('.car').css({'position': 'absolute', 'top': '0px'});
-    $('.car').css({'right': '47%', }); 
+    // $('.car').css({'right': '47%', }); 
   } 
 });
 
