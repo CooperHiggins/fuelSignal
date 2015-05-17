@@ -319,7 +319,7 @@ p.news {
 /*Car animation*/
 
 .car {
-  width: 95px;
+  width: 100px;
   z-index: 100;
   position: absolute;
 }
@@ -428,7 +428,7 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 }
 .col-md-4.right {
   text-align: left;
-  padding-left: 80px;
+  padding-left: 50px;
   width: 40%;
 }
 
