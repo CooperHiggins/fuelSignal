@@ -9,8 +9,10 @@
  */
 
 /* Links */
-a,
-a:focus,
+a, a:focus, a:active {
+  color: rgb(255, 128, 0);
+  text-decoration: none;
+}
 
 a:active {
   color: orange;
@@ -635,7 +637,7 @@ PARTNERS LINKS
 
  footer {
   background-color: rgba(34, 34, 34, 3.901961);
-  color: orange;
+  color: rgb(255, 128, 0);
   border-width: 1px;
   border-color: orange;
   font-weight: 400;
@@ -661,6 +663,7 @@ PARTNERS LINKS
   list-style: none;
   width: 170px;
 }
+
 
 
 /*
