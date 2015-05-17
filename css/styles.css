@@ -82,6 +82,11 @@ input.form-control {
 .blue {
   background-color: #075196;
 }
+
+.space-top {
+  padding-top: 8%;
+}
+
 /*
  * Base structure
  */
@@ -328,12 +333,11 @@ p.news {
 
 .car {
     width: 100px;
-    position:relative;
+    position: absolute;
     top:0;
-    width:100%;
     z-index:100;
+    right: 47%;
 }
-
 
 .affix {
   top: 0;
@@ -392,10 +396,7 @@ h1.featurette-heading {
 .text-muted {
   color: #0F5ECD;
 }
-.featurette {
-  padding: 55px;
-  margin: 30px;
-}
+
 .featurette-header {
   color: orange;
   font-size: 4.6em;
@@ -409,7 +410,16 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 .col-md-4.left {
   text-align: left;
   padding-left: 80px;
-  padding-top: 80px;
+  width: 40%;
+}
+.col-md-4.right {
+  text-align: left;
+  padding-left: 80px;
+  width: 40%;
+}
+
+.col-md-4.center-column {
+  width: 20%;
 }
 
 .col-md-7.left {
@@ -421,7 +431,7 @@ img.featurette-image.img-responsive.center-block {
 }
 
 .right {
-  text-align: right;
+  text-align: left;
   float: right;
   padding-right: 62px;
 }
@@ -440,8 +450,8 @@ h2.featurette-heading.left {
 }
 
 .featurette {
-  padding: 0px;
-  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -499,15 +509,7 @@ a.signup.btn.btn-lg {
   margin-bottom: 15px;
 }
 
-
-/*PARTNERS LINKS*/
-.row.partners {
-  padding-bottom: 25px;
-}
-
-
 /*FAQ*/
-
 
 .title {
   font-size: 2.2em;
@@ -534,8 +536,13 @@ h3.title {
 }
 
 h1.featurette-header.faq {
-  /* float: left; */
   text-align: left;
+}
+h1.featurette-header {
+  margin-bottom: 0px;
+}
+h1.featurette-header {
+  margin-bottom: 0px;
 }
 
 .story.col-md-8 {
@@ -543,50 +550,13 @@ h1.featurette-header.faq {
   color: white;
 }
 /*
- * Header
- */
-
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+PARTNERS LINKS
+*/
+.row.partners {
+  padding-bottom: 25px;
 }
 
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
 
 /*
  * Cover
@@ -614,6 +584,43 @@ h1.featurette-header.faq {
   margin-left: auto;
 }
 
+
+
+@media (min-width: 768px) {
+.col-xs-6.col-sm-3.footer-right {
+  float: right;
+  width: 30%;
+  padding-top: 30px;
+  }
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+.cover {
+  padding: 8%;
+  position: absolute;
+  color: white;
+}
+
+
+
+
+
+
+/*
+ * Footer
+ */
+
+ footer {
+  background-color: rgba(34, 34, 34, 3.901961);
+  color: orange;
+  border-width: 1px;
+  border-color: orange;
+  font-weight: 400;
+}
 .app-links {
   height: 55px;
   width: 160px;
@@ -636,49 +643,6 @@ h1.featurette-header.faq {
   width: 170px;
 }
 
-@media (min-width: 768px) {
-.col-xs-6.col-sm-3.footer-right {
-  float: right;
-  width: 30%;
-  padding-top: 30px;
-  }
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-.cover {
-  padding: 8%;
-  position: absolute;
-  color: white;
-}
-
-.space-top {
-  padding-top: 8%;
-}
-
-
-
-
-
-/*
- * Footer
- */
-
- footer {
-  background-color: rgba(34, 34, 34, 3.901961);
-  color: orange;
-  border-width: 1px;
-  border-color: orange;
-  font-weight: 400;
-}
-
-/*.mastfoot {
-  color: #999;  IE8 proofing 
-  color: rgba(255,255,255,.5);
-}*/
 
 /*
  * Affix and center
@@ -716,6 +680,11 @@ h1.featurette-header.faq {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 992px) {}
+.col-md-4 {
+  width: 33.33333333%;
+}
+
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */

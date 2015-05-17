@@ -9,9 +9,12 @@ $(document).ready(function(){
       if(scroll_start > offset.top) {
           $('.navbar-default').css('background-color', 'rgba(34,34,34,0.9)' );
           $('.navbar-default').css('padding', '0px');
+          $('.navbar-brand').attr('src','images/main-logo-white.png');
+
        } else {
           $('.navbar-default').css('background-color', 'transparent');
           $('.navbar-default').css('padding', '0px');
+          $('.navbar-brand').attr('src','images/main-logo.png');
        }
    });
 });
@@ -19,11 +22,14 @@ $(document).ready(function(){
 $(window).scroll(function(e){ 
   $el = $('.car'); 
   if ($(this).scrollTop() > 700 && $el.css('position') != 'fixed'){ 
-    $('.car').css({'position': 'fixed', 'top': '200px'}); 
+    $('.car').css({'position': 'fixed', 'top': '200px'});
+    $('.car').css({'right': '47%', });
+
   }
   if ($(this).scrollTop() < 700 && $el.css('position') == 'fixed')
   {
-    $('.car').css({'position': 'relative', 'top': '0px'}); 
+    $('.car').css({'position': 'absolute', 'top': '0px'});
+    $('.car').css({'right': '47%', }); 
   } 
 });
 
