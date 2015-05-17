@@ -152,8 +152,8 @@ NAVIGATION
   border-color: transparent;
   color: orange;
   padding: 30px;
-  transition-duration: .5s;
 }
+
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   background-color: transparent;
@@ -238,15 +238,7 @@ video {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.carousel {
-  position: relative;
-  width: 400px;
-  /* height: 100px; */
-  float: right;
-  margin: 100px;
-  margin-top: 15%;
-  margin-right: 20%;
-}
+
 
 .img-circle-feature {
   border-radius: 50%;
@@ -256,18 +248,13 @@ video {
 }
 
 .about-circle {
-  border-radius: 55%;
-  border: 3px solid #0D56BD;
-  padding: 5px;
-  background-color: #FF6A0C;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
 }
 
 input.form-control.rounded {
   border-radius: 10px;
-}
-
-.input-group .form-control:first-child {
-    border-radius: 10px; 
 }
 
 .blue {
@@ -276,7 +263,8 @@ input.form-control.rounded {
 
 h2.orange {
   color: white;
-  padding-top: 40px;
+  font-weight: bold;
+  font-size: 2.5em;
 }
 
 h1.featurette-header {
@@ -312,9 +300,6 @@ p.news {
   
 }
 
-.bubble-girl {
-  height: 20%;
-}
 
 .col-md-4.bubble-girl {
   padding-right: 38%;
@@ -338,7 +323,7 @@ p.news {
 }
 img.road {
   position: absolute;
-  height: 1662px;
+  height: 1722px;
   width: 94px;
 }
 
@@ -375,8 +360,6 @@ div.inner.cover {
   color: orange;
 }
 
-
-
 .action {
   background-color: #383838;
   color: white;
@@ -385,6 +368,28 @@ div.inner.cover {
 h1.featurette-heading {
   color: white;
 }
+
+/*
+SIGUP BANNER
+*/
+
+.join-now {
+  font-weight: 
+}
+.signup {
+  margin-bottom: 15px;
+}
+
+p.sign-up {
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.input-group .form-control:first-child {
+    border-radius: 5px; 
+    height: 36px;
+}
+
 /* Featurettes
 ------------------------- */
 
@@ -485,8 +490,18 @@ h2.featurette-heading.left {
 
 
 /*merchant.html*/
-.about-circles {
-  padding: 45px;
+
+
+.row.about {
+  padding: 50px;
+  padding-bottom: 30px;
+}
+.about {
+  font-size: 1.2em;
+}
+
+h2.about-header {
+  font-weight: bold;
 }
 
 .social-bar {
@@ -505,16 +520,13 @@ h2.featurette-heading.left {
 a.signup.btn.btn-lg {
   background-color: #FB6A07;
   color: white;
-  border: 2.2px solid white;
+  border: 1.3px solid white;
   height: 12%;
   width: 13%;
   padding: 8px;
   text-align: center;
 }
 
-.signup {
-  margin-bottom: 15px;
-}
 
 /*FAQ*/
 
@@ -609,12 +621,12 @@ PARTNERS LINKS
 .cover {
   padding: 8%;
   position: absolute;
+  color: #1356BB;
+  font-weight: bold;
+}
+.inner.cover.white {
   color: white;
 }
-
-
-
-
 
 
 /*
@@ -715,7 +727,7 @@ PARTNERS LINKS
   }
 
   .navbar-default .navbar-nav > li > a {
-  color: orange;
+   color: rgb(255, 128, 0);
 }
 
   /* The navbar becomes detached from the top, so we round the corners */
