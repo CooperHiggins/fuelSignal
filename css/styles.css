@@ -322,6 +322,7 @@ p.news {
   z-index: 100;
   position: absolute;
   height: 140px;
+  margin-top: 121px;
 }
 
 img.road {
