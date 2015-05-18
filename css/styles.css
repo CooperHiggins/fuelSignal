@@ -195,7 +195,8 @@ video {
     position:relative;
     z-index:-1;
     text-align: -webkit-center;
-    width: 100%; 
+    width: 100%;
+    background-image: src:('images/video-background.png'); 
 }
 
 .background-image {
@@ -304,6 +305,12 @@ p.news {
   width: 100%;
 }
 
+.col-md-4.left {
+  text-align: left;
+  padding-left: 23px;
+  width: 45%;
+}
+
 .how-container1 {
   background-color: #eeeeee;
 }
@@ -323,8 +330,8 @@ p.news {
 
 img.road {
   position: absolute;
-  height: 2220px;
-  width: 141px;
+  height: 2140px;
+  width: 140px;
 }
 
 .col-lg-12 {
@@ -428,13 +435,14 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 
 .col-md-4.left {
   text-align: left;
-  padding-left: 80px;
-  width: 40%;
+  padding-left: 25px;
+  width: 43%;
 }
+
 .col-md-4.right {
   text-align: left;
   padding-left: 50px;
-  width: 40%;
+  width: 46%;
 }
 
 .col-md-4.center-column {
@@ -471,7 +479,8 @@ h2.featurette-heading.left {
 .featurette {
   padding-left: 50px;
   padding-right: 50px;
-  padding: 10px;
+  padding: 0px;
+  padding-top: 0px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
