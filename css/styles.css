@@ -319,18 +319,20 @@ p.news {
 /*Car animation*/
 
 .car {
-  width: 100px;
+  width: 143px;
   z-index: 100;
   position: absolute;
+  height: 150px;
 }
+
 img.road {
   position: absolute;
-  height: 1722px;
-  width: 94px;
+  height: 2374px;
+  width: 141px;
 }
 
 .col-lg-12 {
-  width: 93%;
+  width: 85%;
 }
 
 .affix {
@@ -444,7 +446,7 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 }
 
 .col-md-7.left {
-  padding-left: 170px;
+  padding-left: 145px;
 }
 
 img.featurette-image.img-responsive.center-block {
@@ -461,7 +463,7 @@ img.featurette-image.img-responsive.center-block {
 }
 
 h1.featurette-header.space-top.left {
-  text-align: left;
+  
   padding-left: 40px;
 
 }
@@ -473,6 +475,7 @@ h2.featurette-heading.left {
 .featurette {
   padding-left: 50px;
   padding-right: 50px;
+  padding: 10px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
