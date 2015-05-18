@@ -38,6 +38,12 @@ li {
   font-size: 15px;
 }
 
+/*HEADERS*/
+h1.partners {
+  text-align: left;
+  padding: 25px;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -95,14 +101,6 @@ input.form-control {
 
 .space-top {
   padding-top: 8%;
-}
-
-
-.banner.container-fluid {
-  padding: 0px;
-}
-img.banner {
-  width: 100%;
 }
 
 
@@ -211,7 +209,7 @@ video {
     position:relative;
     z-index:-100;
     width: 100%;
-    background: url(video-background.png) no-repeat;
+    background: url(images/video-background.png) no-repeat;
     
 }
 
@@ -400,6 +398,13 @@ p.sign-up {
 .col-md-4.partners {
   width: 33%;
 }
+
+.banner.container-fluid {
+  padding: 0px;
+}
+img.banner {
+  width: 100%;
+}
 /* Featurettes
 ------------------------- */
 
@@ -566,6 +571,7 @@ h1.featurette-header {
 }
 h1.featurette-header {
   margin-bottom: 0px;
+  text-align: center;
 }
 
 h3.title:hover {
