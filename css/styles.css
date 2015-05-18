@@ -54,25 +54,6 @@ li {
    margin-right: auto; 
    margin-left: auto; 
 }
-
-.input-group {
-  width: 25%;
-}
-
-input.form-control {
-  width: 200px;
-  min-width: 200px;
-}
-
-.row.active {
-  padding: 20px;
-}
-
-.row.active.signup {
-  padding-right: 230px;
-  padding-left: 230px;
-}
-
 .container-fluid.active {
   background-color: #0953B0;
   color: white;
@@ -84,6 +65,24 @@ input.form-control {
 
 .container-fluid.active.partners {
   background-color: rgba(34, 34, 34, 3.901961);
+}
+
+.row.active {
+  padding: 20px;
+}
+
+.row.active.signup {
+  padding-right: 230px;
+  padding-left: 230px;
+}
+
+.input-group {
+  width: 25%;
+}
+
+input.form-control {
+  width: 200px;
+  min-width: 200px;
 }
 
 .grey1 {
@@ -107,14 +106,7 @@ img.banner {
 }
 
 
-p.copyright {
-  width: 100%;
-}
 
-p#social-links {
-  width: 315px;
-  padding-top: 25px;
-}
 
 .grey {
   background-color: grey;
@@ -187,6 +179,30 @@ nav.navbar.navbar-default-black.navbar-fixed-top {
 img.navbar-brand {
   height: 65px;
 }
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
 /*
 BACKGROUND VIDEO
 */
@@ -256,27 +272,7 @@ input.form-control.rounded {
   border-radius: 10px;
 }
 
-.blue {
-  color: blue;
-}
 
-h2.orange {
-  color: white;
-  font-weight: bold;
-  font-size: 2.5em;
-}
-
-h1.featurette-header {
-  text-align: center;
-}
-h1.featurette-heading.partners {
-  padding: 20px;
-  text-align: left;
-}
-
-h2.featurette-heading.left {
-  font-size: 2.7em;
-}
 
 .appphoto {
   min-height: 450px;
@@ -329,8 +325,9 @@ p.news {
 }
 
 img.road {
+  margin-top: 130px;
   position: absolute;
-  height: 2080px;
+  height: 2045px;
   width: 130px;
 }
 
@@ -372,9 +369,7 @@ div.inner.cover {
   color: white;
 }
 
-h1.featurette-heading {
-  color: white;
-}
+
 
 /*
 SIGUP BANNER
@@ -509,7 +504,6 @@ h2.featurette-heading.left {
 
 /*merchant.html*/
 
-
 .row.about {
   padding: 50px;
   padding-bottom: 30px;
@@ -550,19 +544,10 @@ a.signup.btn.btn-lg {
 
 .title {
   font-size: 2.2em;
-  /* color: orange; */
   color: black;
   border-bottom: 1px solid white;
   padding: 20px;
   text-align: left;
-}
-
-h3.title:hover {
-  background-color: rgba(34, 34, 34, 3.901961);
-}
-
-h3.title {
-  color: white;
 }
 
 .faq {
@@ -582,6 +567,14 @@ h1.featurette-header {
   margin-bottom: 0px;
 }
 
+h3.title:hover {
+  background-color: rgba(34, 34, 34, 3.901961);
+}
+
+h3.title {
+  color: white;
+}
+
 .story.col-md-8 {
   background-color: #2D2D2D;
   color: white;
@@ -592,35 +585,6 @@ PARTNERS LINKS
 .row.partners {
   padding-bottom: 25px;
 }
-
-
-
-/*
- * Cover
- */
-@media (max-width: 375px) {
-.cover-heading {
-  /* display: none; */
-  font-size: 2.5em;
-  }
-
-  video {
-    width: 375px;
-  }
-}
-.cover {
-  
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 
 
 @media (min-width: 768px) {
