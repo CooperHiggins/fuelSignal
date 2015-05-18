@@ -1,11 +1,20 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/*
+ * Base structure
+ */
 
-
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-align: center;
+  text-shadow: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
 
 /*
- * Globals
+ * Global Styles
  */
 
 /* Links */
@@ -89,20 +98,7 @@ input.form-control {
   padding-top: 8%;
 }
 
-/*
- * Base structure
- */
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  color: black;
-  text-align: center;
-  text-shadow: none;
-  font-family: 'Source Sans Pro', sans-serif;
-  
-}
 .banner.container-fluid {
   padding: 0px;
 }
