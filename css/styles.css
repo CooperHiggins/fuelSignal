@@ -103,9 +103,6 @@ input.form-control {
   padding-top: 8%;
 }
 
-
-
-
 .grey {
   background-color: grey;
 }
@@ -260,11 +257,7 @@ video {
   
 }
 
-.about-circle {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 30px;
-}
+
 
 input.form-control.rounded {
   border-radius: 10px;
@@ -293,9 +286,8 @@ p.news {
   
 }
 
-
 .col-md-4.bubble-girl {
-  padding-right: 38%;
+  padding-right: 45%;
   width: 100%;
 }
 
@@ -469,9 +461,7 @@ img.featurette-image.img-responsive.center-block {
 }
 
 h1.featurette-header.space-top.left {
-  
   padding-left: 40px;
-
 }
 
 h2.featurette-heading.left {
@@ -545,6 +535,12 @@ a.signup.btn.btn-lg {
   text-align: center;
 }
 
+.about-circle {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
 
 /*FAQ*/
 
@@ -586,6 +582,8 @@ h3.title {
   background-color: #2D2D2D;
   color: white;
 }
+
+
 /*
 PARTNERS LINKS
 */
@@ -651,41 +649,6 @@ PARTNERS LINKS
   width: 170px;
 }
 
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-     vertical-align: middle; 
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%;
-  }
-}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

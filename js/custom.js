@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){       
    var scroll_start = 10;
    var startchange = $('.nav');
@@ -42,9 +40,6 @@ $(window).scroll(function(e){
       $('body').delay(350).css({'overflow':'visible'});
     })
   //]]>
-
-
-
 
 jQuery(document).ready(function() {
     $('.story')                            // Filter: .stories
