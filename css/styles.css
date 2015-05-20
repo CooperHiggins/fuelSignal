@@ -48,7 +48,10 @@ h1.featurette-header.three-pages {
   padding-top: 70px;
   /* text-align: left; */
 }
-
+h2, .h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
 h3.left {
   text-align: left;
 }
@@ -141,6 +144,11 @@ input.form-control {
 
 .grey {
   background-color: grey;
+}
+
+.about {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 /*
 NAVIGATION
@@ -530,7 +538,7 @@ img.featurette-image.img-responsive.center-block {
   padding: 50px;
   padding-bottom: 30px;
 }
-.about {
+.about-circles {
   font-size: 1.2em;
 }
 
