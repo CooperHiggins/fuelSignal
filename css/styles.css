@@ -100,7 +100,7 @@ input.form-control {
 }
 
 .space-top {
-  padding-top: 8%;
+  padding-top: 15%;
 }
 
 .grey {
@@ -308,11 +308,10 @@ p.news {
 /*Car animation*/
 
 .car {
-  width: 130px;
+  width: 136px;
   z-index: 100;
   position: absolute;
-  height: 140px;
-  margin-top: 121px;
+  
 }
 
 img.road {
@@ -323,7 +322,8 @@ img.road {
 }
 
 .col-lg-12 {
-  width: 85%;
+  /* width: 85%; */
+  width: 89%;
 }
 
 .affix {
@@ -423,13 +423,17 @@ img.banner {
   text-align: left;
 }
 img.featurette-image.img-responsive.center-block.bubble-girl {
-  height: 450px;
+  height: 492px;
+  /* padding: 50px; */
+  margin: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .col-md-4.left {
   text-align: left;
   padding-left: 25px;
-  width: 43%;
+  
 }
 
 .col-md-4.right {
