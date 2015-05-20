@@ -475,7 +475,7 @@ img.banner {
 h1.featurette-header {
   margin-bottom: 12px;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-right: 50px;
 }
 h1.featurette-header.space-top.left {
@@ -590,7 +590,7 @@ a.signup.btn.btn-lg {
 .faq {
   background-color: #242627;
   text-align: left;
-  color: orange;
+  color: rgb(255, 128, 0);
   padding-bottom: 0px;
 }
 
