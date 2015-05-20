@@ -61,25 +61,25 @@ COLUMNS*/
 .left {
   text-align: left;
 }
-.col-md-4.left {
-  text-align: left;
-  padding-left: 25px;
-  
-}
+
 
 .col-md-4.right {
   text-align: left;
-  padding-left: 50px;
-  width: 48%;
+  padding-right: 145px;
+  width: 40%;
 }
 
 .col-md-4.center-column {
   width: 20%;
 }
 
+.col-md-4.left.space-top.paragraph1 {
+  padding-top: 200px;
+}
+
 .col-md-7.left {
   padding-left: 300px;
-  width: 48%;
+  
 }
 
 /* Custom default button */
@@ -148,6 +148,7 @@ input.form-control {
 .about {
   padding-left: 120px;
   padding-right: 120px;
+  margin: 0px;
 }
 /*
 NAVIGATION
@@ -339,7 +340,7 @@ p.news {
 
 .col-md-4.left {
   text-align: left;
-  padding-left: 23px;
+  padding-left: 100px;
   width: 45%;
 }
 
