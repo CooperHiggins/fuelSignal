@@ -450,15 +450,31 @@ img.banner {
   letter-spacing: -1px;
   color: orange;
 }
-
-.text-muted {
-  color: #0F5ECD;
+.featurette {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 0px;
+  padding-top: 0px;
 }
+
 
 .featurette-header {
   color: orange;
   font-size: 4.6em;
   position: relative;
+  text-align: left;
+}
+h1.featurette-header {
+  margin-bottom: 12px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+h1.featurette-header.space-top.left {
+  padding-left: 40px;
+}
+
+h2.featurette-heading.left {
   text-align: left;
 }
 img.featurette-image.img-responsive.center-block.bubble-girl {
@@ -468,8 +484,6 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
-
 
 img.featurette-image.img-responsive.center-block {
   height: 317px;
@@ -483,20 +497,8 @@ img.featurette-image.img-responsive.center-block {
 .circle-pic-home {
   height: 320px;
 }
-
-h1.featurette-header.space-top.left {
-  padding-left: 40px;
-}
-
-h2.featurette-heading.left {
-  text-align: left;
-}
-
-.featurette {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding: 0px;
-  padding-top: 0px;
+.text-muted {
+  color: #0F5ECD;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -585,13 +587,6 @@ a.signup.btn.btn-lg {
 
 h1.featurette-header.faq {
   text-align: left;
-}
-h1.featurette-header {
-  margin-bottom: 0px;
-}
-h1.featurette-header {
-  margin-bottom: 0px;
-  text-align: center;
 }
 
 h3.title:hover {
