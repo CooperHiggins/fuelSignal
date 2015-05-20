@@ -49,8 +49,16 @@ h1.featurette-header.three-pages {
   /* text-align: left; */
 }
 
+h3.left {
+  text-align: left;
+}
+
 /*
 COLUMNS*/
+
+.left {
+  text-align: left;
+}
 .col-md-4.left {
   text-align: left;
   padding-left: 25px;
