@@ -569,10 +569,10 @@ a.signup.btn.btn-lg {
 }
 
 .faq {
-  background-color: #2D2D2D;
+  background-color: #242627;
   text-align: left;
   color: orange;
-   padding-bottom: 0px; 
+  padding-bottom: 0px;
 }
 
 h1.featurette-header.faq {
@@ -595,7 +595,7 @@ h3.title {
 }
 
 .story.col-md-8 {
-  background-color: #2D2D2D;
+  background-color: #242627;
   color: white;
 }
 
