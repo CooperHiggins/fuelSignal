@@ -136,7 +136,7 @@ input.form-control {
 }
 
 .space-top {
-  padding-top: 15%;
+  padding-top: 8%;
 }
 
 .grey {
@@ -383,9 +383,9 @@ img.road {
 Text over video
 */
 .cover-heading {
-  font-size: 3.3em;
+  font-size: 3.0em;
   padding-top: 5%;
-  font-weight: 600;
+  font-weight: 500;
 }
 div.inner.cover {
   width: 100%;
