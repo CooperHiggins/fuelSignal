@@ -44,6 +44,34 @@ h1.partners {
   padding: 25px;
 }
 
+h1.featurette-header.three-pages {
+  padding-top: 70px;
+  /* text-align: left; */
+}
+
+/*
+COLUMNS*/
+.col-md-4.left {
+  text-align: left;
+  padding-left: 25px;
+  
+}
+
+.col-md-4.right {
+  text-align: left;
+  padding-left: 50px;
+  width: 48%;
+}
+
+.col-md-4.center-column {
+  width: 20%;
+}
+
+.col-md-7.left {
+  padding-left: 145px;
+  width: 58%;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -148,6 +176,9 @@ NAVIGATION
 
 .collapse.navbar-collapse.navbar-right.navbar-main-collapse {
   padding: 5px;
+}
+.col-md-5 {
+  width: 39%;
 }
 
 .navbar-brand {
@@ -317,7 +348,7 @@ p.news {
 img.road {
   margin-top: 130px;
   position: absolute;
-  height: 2045px;
+  height: 1970px;
   width: 130px;
 }
 
@@ -430,26 +461,7 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
   margin-bottom: 0px;
 }
 
-.col-md-4.left {
-  text-align: left;
-  padding-left: 25px;
-  
-}
 
-.col-md-4.right {
-  text-align: left;
-  padding-left: 50px;
-  width: 48%;
-}
-
-.col-md-4.center-column {
-  width: 20%;
-}
-
-.col-md-7.left {
-  padding-left: 145px;
-  width: 58%;
-}
 
 img.featurette-image.img-responsive.center-block {
   height: 317px;
