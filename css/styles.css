@@ -205,6 +205,9 @@ CONTAINERS
   text-align: left;
 }
 
+a.home {
+  color: #1356BB;
+}
 
 
 
@@ -692,10 +695,10 @@ PARTNERS LINKS
   color: #0D53C0;
 }*/
 .navbar-default .navbar-nav > li > a {
-  color: #1356BB;
+  color: rgb(13, 83, 192);
 }
-.navbar-default .navbar-nav > li > a > .home {
-  color: #0D53C0;
+.navbar-default .navbar-nav > li > a.home    {
+  color: rgb(255, 128, 0);
 }
 
 /*
