@@ -365,7 +365,7 @@ img.road {
   margin-top: 130px;
   position: absolute;
   height: 2086px;
-  width: 130px;
+  width: 137px;
 }
 
 .col-lg-12 {
@@ -645,7 +645,9 @@ PARTNERS LINKS
 .inner.cover.white {
   color: white;
 }
-
+.navbar-default .navbar-nav > li > a {
+  color: #0D53C0;
+}
 
 /*
  * Footer
@@ -689,7 +691,7 @@ PARTNERS LINKS
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 500px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -745,7 +747,22 @@ PARTNERS LINKS
 }
   }
  
+ @media (max-width: 500px) and (max-width: 700px) {
+
+html, body {
+  height: 100%;
+  width: 400px;
+  color: black;
+  text-align: center;
+  text-shadow: none;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+ .cover-heading {
+  font-size: 1.4em;
+  padding-top: 5%;
+  font-weight: 600;
+  }
+
 
 
 

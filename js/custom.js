@@ -21,12 +21,12 @@ $(document).ready(function(){
 
 $(window).scroll(function(e){ 
   $el = $('.car'); 
-  if ($(this).scrollTop() > 700 && $el.css('position') != 'fixed'){ 
-    $('.car').css({'position': 'fixed', 'top': '200px'});
+  if ($(this).scrollTop() > 600 && $el.css('position') != 'fixed'){ 
+    $('.car').css({'position': 'fixed', 'top': '110px'});
     // $('.car').css({'right': '47%', });
 
   }
-  if ($(this).scrollTop() < 700 && $el.css('position') == 'fixed')
+  if ($(this).scrollTop() < 750 && $el.css('position') == 'fixed')
   {
     $('.car').css({'position': 'absolute', 'top': '0px'});
     // $('.car').css({'right': '47%', }); 
