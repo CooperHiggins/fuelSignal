@@ -80,7 +80,7 @@ COLUMNS*/
 }
 
 .col-md-7.left {
-  padding-left: 300px;
+  padding-left: 225px;
   
 }
 
@@ -512,7 +512,7 @@ img.featurette-image.img-responsive.center-block {
 .right {
   text-align: left;
   float: right;
-  padding-right: 62px;
+  
 }
 .circle-pic-home {
   height: 320px;
