@@ -649,6 +649,10 @@ PARTNERS LINKS
   color: #0D53C0;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0D53C0;
+}
+
 /*
  * Footer
  */
@@ -690,6 +694,13 @@ PARTNERS LINKS
   width: 50%;
 }
 
+@media (min-width: 768px) {
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(255, 128, 0);
+}
+}
 
 @media (max-width: 500px) {
   /* Navbar positioning foo */

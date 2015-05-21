@@ -7,6 +7,7 @@ $(document).ready(function(){
       if(scroll_start > offset.top) {
           $('.navbar-default').css('background-color', 'rgba(34,34,34,0.9)' );
           $('.navbar-default .navbar-nav > li > a').css('color', 'rgb(255, 128, 0)');
+          $('.navbar-default .navbar-nav > li > a:hover').css('color', 'blue');
           $('.navbar-default').css('padding', '0px');
           $('.navbar-brand').attr('src','images/main-logo-white.png');
           $('.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover').css('color','#337ab7');
