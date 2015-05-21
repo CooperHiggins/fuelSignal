@@ -80,8 +80,7 @@ COLUMNS*/
 }
 
 .col-md-7.left {
-  padding-left: 225px;
-  
+  padding-left: 300px;
 }
 
 /* Custom default button */
@@ -347,8 +346,7 @@ p.news {
 .col-md-4.left {
   text-align: left;
   padding-left: 100px;
-  width: 45%;
-  
+  width: 40%;
 }
 
 .how-container1 {
