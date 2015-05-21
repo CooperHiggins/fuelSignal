@@ -692,9 +692,9 @@ PARTNERS LINKS
   color: #0D53C0;
 }*/
 .navbar-default .navbar-nav > li > a {
-  color: orange;
+  color: #1356BB;
 }
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a > .home {
   color: #0D53C0;
 }
 
