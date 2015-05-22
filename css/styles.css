@@ -813,41 +813,84 @@ PARTNERS LINKS
 }
   }
  
- @media (max-width: 375px)  {
-
+ @media (max-width: 400px)  {
 
  .cover-heading {
   font-size: 1.4em;
   padding-top: 5%;
   font-weight: 600;
+  max-width: 375px;
   }
+.navbar-header.page-scroll {
+  max-width: 375px;
+}
+/*
+IMAGES
+*/
+img.featurette-image.img-responsive.center-block.bubble-girl {
 
-@media (max-width: 400px) {
-  /* Navbar positioning foo */
- 
-
-
+  display: none;
+}
+img.featurette-image.img-responsive.center-block {
+  display: none;
+}
+/*
+COLUMNS
+*/
+.col-lg-12 {
+  display: none;
+}
+.col-md-4 {
+  width: 100%;
+}
 .col-md-5 {
   width: 100%;
 }
+.col-md-4.left.space-top.paragraph1 {
+   padding-top: 0px; 
+}
+
+.col-md-4.left {
+   text-align: none; 
+   padding-left: 35px; 
+   width: 100%;
+   
+}
+
+.col-md-4.right {
+  text-align: none;
+  padding-right: 35px;
+  width: 100%;
+}
+
+.col-xs-6 {
+   width: 100%; 
+}
+
+.col-md-4.left.space-top.paragraph1 {
+  width: 100%;
+}
+
+
+
 .container-fluid.active {
   background-color: #0953B0;
   color: white;
-  max-width: 375px;
+  width: 100%;
 }
 .container-fluid {
-  max-width: 375px;
+  width: 100%;
 }
   .navbar-default {
   background-color: transparent;
   border-color: transparent;
   color: orange;
   padding: 30px;
-  width: 375px;
+  width: 100%;
 }
   .navbar-wrapper {
     margin-top: 20px;
-    max-width: 375px;
+    width: 100%;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
