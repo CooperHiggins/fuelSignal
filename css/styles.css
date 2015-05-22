@@ -475,6 +475,10 @@ p.sign-up {
   font-weight: 900;
   font-size: 1.1em;
 }
+p.lead.or {
+  margin: 5px;
+  padding-right: 35px;
+}
 
 .input-group .form-control:first-child {
     border-radius: 5px; 
