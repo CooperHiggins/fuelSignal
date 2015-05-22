@@ -800,17 +800,7 @@ PARTNERS LINKS
   }
 
  
-@media (max-width: 700px) {
-.container {
-  max-width: 660px;
-    }
- .featurette-header {
-  color: rgb(255, 128, 0);
-  font-size: 1.6em;
-  position: relative;
-  text-align: left;
-}
-  }
+
  
 @media (max-width: 400px)  {
   a.home {
@@ -820,6 +810,10 @@ PARTNERS LINKS
   padding-left: 20px;
   padding-right: 20px;
   margin: 0px;
+}
+.app-links {
+ 
+  display: none;
 }
 /*
   COVER
@@ -834,7 +828,7 @@ PARTNERS LINKS
   NAVIGATION
   */
 .navbar-header.page-scroll {
-  max-width: 375px;
+  max-width: 370px;
 }
 .navbar-default {
   background-color: transparent;
@@ -859,7 +853,7 @@ PARTNERS LINKS
     padding-top: 15px;
     padding-bottom: 15px;
     color: rgb(255, 128, 0);
-    background-color: none;
+    background-color: black;
   }
   .navbar-default .navbar-nav > li > a {
     color: #0F5ECD;
@@ -912,8 +906,16 @@ COLUMNS
 .col-xs-6 {
   width: 100%; 
 }
+.col-xs-3 {
+  width: 12%;
+}
 .col-md-4.left.space-top.paragraph1 {
   width: 100%;
+}
+.row.active.signup {
+   padding-right: 0px; 
+   padding-left: 0px; 
+  max-width: 375px;
 }
 /*
 CONTAINERS
@@ -921,8 +923,9 @@ CONTAINERS
 .container-fluid.active {
   background-color: #0953B0;
   color: white;
-  width: 100%;
+  max-width: 375px;
 }
+
 .container-fluid {
   width: 100%;
 }
