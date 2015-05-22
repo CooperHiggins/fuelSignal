@@ -11,12 +11,19 @@ $(document).ready(function(){
           $('.navbar-default').css('padding', '0px');
           $('.navbar-brand').attr('src','images/main-logo-white.png');
           $('.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover').css('color','#337ab7');
+          // $('.navbar-default .navbar-nav > li > a.home').css('color', 'rgb(255, 128, 0)');
           
+           $('.navbar-default .navbar-nav > li > a').css('color', 'rgb(255, 128, 0)');
+
+          
+
        } else {
           $('.navbar-default').css('background-color', 'transparent');
           $('.navbar-default').css('padding', '0px');
           $('.navbar-brand').attr('src','images/main-logo.png');
-          $('.navbar-default .navbar-nav > li > a').css('color', '#0D53C0');
+         
+          
+          $('.navbar-default .navbar-nav > li > a').css('color', 'color', '#113FAC');
        }
    });
 });
