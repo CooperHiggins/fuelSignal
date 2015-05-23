@@ -821,6 +821,20 @@ PARTNERS LINKS
 h1.featurette-header.space-top.left {
   margin-top: 60px;
 }
+input.form-control {
+  width: 200px;
+  min-width: 150px;
+  margin: 3px;
+}
+a.signup.btn.btn-lg {
+  background-color: #FB6A07;
+  color: white;
+  border: 1.3px solid white;
+  height: 12%;
+  width: 37%;
+  padding: 8px;
+  text-align: center;
+}
 /*
   COVER
  */ 
@@ -914,7 +928,7 @@ COLUMNS
   width: 100%; 
 }
 .col-xs-3 {
-  width: 12%;
+  width: 50%;
 }
 .col-md-4.left.space-top.paragraph1 {
   width: 100%;
