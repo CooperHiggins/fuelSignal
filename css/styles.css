@@ -812,8 +812,14 @@ PARTNERS LINKS
   margin: 0px;
 }
 .app-links {
- 
   display: none;
+}
+.narrow {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+h1.featurette-header.space-top.left {
+  margin-top: 60px;
 }
 /*
   COVER
@@ -900,8 +906,9 @@ COLUMNS
 }
 .col-md-4.right {
   text-align: none;
-  padding-right: 35px;
+  padding-left: 35px;
   width: 100%;
+  padding-right: 15px;
 }
 .col-xs-6 {
   width: 100%; 
