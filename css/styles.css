@@ -907,6 +907,10 @@ a.signup.btn.btn-lg {
 /*
 IMAGES
 */
+.poster {
+  min-width: 380px;
+
+}
 .background-image {
   width: 100%;
   height: 200px;
@@ -951,7 +955,8 @@ COLUMNS
   width: 100%;
 }
 .col-xs-6 {
-  width: 100%; 
+  width: 100%;
+  padding: 0px; 
 }
 .col-xs-3 {
   width: 50%;
