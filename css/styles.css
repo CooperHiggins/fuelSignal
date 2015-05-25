@@ -953,6 +953,7 @@ COLUMNS
 }
 .col-md-4.partners {
   width: 100%;
+  padding: 20px;
 }
 .col-xs-6 {
   width: 100%;
