@@ -836,16 +836,23 @@ h1.featurette-header.space-top.left {
   margin-top: 60px;
 }
 input.form-control {
-  width: 200px;
-  min-width: 150px;
+  width: 285px;
+  min-width: 250px;
   margin: 3px;
+}
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 280px;
+  margin-bottom: 0;
 }
 a.signup.btn.btn-lg {
   background-color: #FB6A07;
   color: white;
   border: 1.3px solid white;
   height: 12%;
-  width: 37%;
+  width: 50%;
   padding: 8px;
   text-align: center;
 }
@@ -975,15 +982,17 @@ COLUMNS
   padding: 0px; 
 }
 .col-xs-3 {
-  width: 50%;
+  width: 100%;
+  padding-left: 11px;
 }
 .col-md-4.left.space-top.paragraph1 {
   width: 100%;
 }
 .row.active.signup {
-   
-  padding-left: 40px;
-  max-width: 284px;
+  padding-left: 0px;
+  margin: 0px;
+  width: 315px;
+  float: left;
 }
 .row {
   margin-right: 0px;
