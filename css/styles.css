@@ -212,11 +212,10 @@ CONTAINERS
 }
 
 .row.active.signup {
-  padding-right: 230px;
-  padding-left: 230px;
-}
-.row.featurette.space-bottom {
-  padding-bottom: 100px;
+   /* padding-right: 230px;
+    padding-left: 230px;*/
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .left {
@@ -844,7 +843,7 @@ input.form-control {
   position: relative;
   z-index: 2;
   float: left;
-  width: 280px;
+  width: 25%;
   margin-bottom: 0;
 }
 a.signup.btn.btn-lg {
@@ -983,13 +982,13 @@ COLUMNS
 }
 .col-xs-3 {
   width: 100%;
-  padding-left: 11px;
+  padding-left: 30px;
 }
 .col-md-4.left.space-top.paragraph1 {
   width: 100%;
 }
 .row.active.signup {
-  padding-left: 0px;
+  
   margin: 0px;
   width: 315px;
   float: left;
