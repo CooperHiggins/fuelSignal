@@ -419,6 +419,7 @@ p.news {
 }
 
 img.road {
+  margin-top: 120px;
   position: absolute;
   height: 2087px;
   width: 137px;
@@ -559,7 +560,7 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 }
 
 img.featurette-image.img-responsive.center-block {
-  height: 317px;
+  height: 357px;
 }
 
 .right {
