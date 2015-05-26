@@ -205,17 +205,13 @@ CONTAINERS
   background-color: rgba(34, 34, 34, 3.901961);
 }
 
-
-
 .row.active {
   padding: 20px;
 }
 
 .row.active.signup {
-   /* padding-right: 230px;
-    padding-left: 230px;*/
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .left {
@@ -988,10 +984,9 @@ COLUMNS
   width: 100%;
 }
 .row.active.signup {
-  
-  margin: 0px;
   width: 315px;
   float: left;
+  padding-left: 5%;
 }
 .row {
   margin-right: 0px;
