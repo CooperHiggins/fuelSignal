@@ -280,12 +280,18 @@ video {
     position:relative;
     z-index:-100;
     width: 100%;
-    background-image:url(./images/video-background.png) #000 no-repeat center;
+    min-width: 375px;
+    background-image: url(./images/video-background.png) #000 no-repeat center;
     
 }
 
 .background-image {
   width: 100%;
+  min-width: 375px;
+}
+
+.poster {
+  min-width: 375px;
 }
 
 /*
