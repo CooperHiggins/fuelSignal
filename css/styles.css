@@ -291,9 +291,13 @@ video {
   min-width: 375px;
 }
 
-poster {
-  min-width: 375px;
+.video_poster{
+    min-width:375px;
+    min-height: 100%;
+    background-size:694px 390px;
+    background-image:url(./images/video-background.png);
 }
+
 
 /*
 NAVIGATION
