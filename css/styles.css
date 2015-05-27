@@ -880,7 +880,7 @@ a.signup.btn.btn-lg {
   }
   .featurette-header {
   color: rgb(255, 128, 0);
-  font-size: 3.2em;
+  font-size: 3.7em;
   position: relative;
   text-align: left;
 }
@@ -948,6 +948,7 @@ img.featurette-image.img-responsive.center-block.bubble-girl {
 img.featurette-image.img-responsive.center-block {
   display: none;
 }
+
 /*
 COLUMNS
 */
