@@ -282,6 +282,7 @@ video {
     width: 100%;
     min-width: 375px;
     background-image: url(./images/video-background.png) #000 no-repeat center;
+    pointer-events: none;
     
 }
 
@@ -290,7 +291,7 @@ video {
   min-width: 375px;
 }
 
-.poster {
+poster {
   min-width: 375px;
 }
 
