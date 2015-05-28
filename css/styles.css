@@ -703,8 +703,9 @@ PARTNERS LINKS
 */
 .row.partners {
   padding-bottom: 25px;
+  background-color: #eee;
+  color: black;
 }
-
 
 @media (min-width: 768px) {
 .col-xs-6.col-sm-3.footer-right {
