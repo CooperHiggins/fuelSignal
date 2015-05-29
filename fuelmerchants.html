@@ -88,32 +88,35 @@ SIGNUP BANNER
 <div class="container-fluid active">
 <h2 class="orange">Get Me More Customers Today!</h2>
 <center>
- <div class="row active signup">
+ <div id="fuelJoinFormTop" class="row active signup">
  <center>
- <div class="col-md-12">
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Business Name"> 
+      <input id="businessNameTop" type="text" class="form-control" placeholder="Business Name">
+      <span id="errbusinessNameTop" class="errorLabel">Fill the required fields.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Legal Name">
+      <input id="legalNameTop" type="text" class="form-control" placeholder="Legal Name">
+      <span id="errlegalNameTop" class="errorLabel">Fill the required field.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
    <div class="input-group">
-      <input type="text" class="form-control" placeholder="E-Mail">
+      <input id="emailIdTop" type="text" class="form-control" placeholder="E-Mail">
+      <span id="erremailIdTop" class="errorLabel">Email id not valid.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Phone Number">
-      </center>
+      <input id="phoneNumberTop" type="text" class="form-control" placeholder="Phone Number" maxlength="10" onkeypress="return isNumeric(event, this.value)">
+      <span id="errphoneNumberTop" class="errorLabel">Field length should be 10.</span>
+    </center>
     </div><!-- /input-group -->
     <div class="row">
     <div class="col-md-12 signup">
-    <a href="https://play.google.com/store/apps/details?id=com.fuelsignal.activity" class="signup btn btn-lg " ><p class="sign-up">Join Now!</p></a>
+    <a href="javascript:void(0)" class="signup btn btn-lg " onclick="validateSignUp('fuelJoinFormTop')"><p class="sign-up">Join Now!</p></a>
     </div>
   </div>
   </div><!-- .row -->
@@ -267,35 +270,38 @@ BANNER
 SIGNUP BANNER
  -->
 <!-- SIGNUP BANNER BOTTOM -->
-<div class="container-fluid active">
+<div id="fuelJoinFormBottom" class="container-fluid active">
 <h2 class="orange">Get Me More Customers Today!</h2>
 <center>
  <div class="row active signup">
  <center>
- <div class="col-md-12">
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Business Name"> 
+      <input id="businessNameBottom" type="text" class="form-control" placeholder="Business Name">
+      <span id="errbusinessNameBottom" class="errorLabel">Fill the required field.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Legal Name">
+      <input id="legalNameBottom" type="text" class="form-control" placeholder="Legal Name">
+      <span id="errlegalNameBottom" class="errorLabel">Fill the required field.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
    <div class="input-group">
-      <input type="text" class="form-control" placeholder="E-Mail">
+      <input id="emailIdBottom" type="text" class="form-control" placeholder="E-Mail">
+      <span id="erremailIdBottom" class="errorLabel">Email id not valid.</span>
     </div><!-- /input-group -->
   </div>
   <div class="border col-xs-3">
      <div class="input-group">
-      <input type="text" class="form-control" placeholder="Phone Number">
+      <input id="phoneNumberBottom" type="text" class="form-control" placeholder="Phone Number" maxlength="10" onkeypress="return isNumeric(event, this.value)">
+    <span id="errphoneNumberBottom" class="errorLabel">Field length should be 10.</span>
       </center>
     </div><!-- /input-group -->
     <div class="row">
     <div class="col-md-12 signup">
-    <a href="https://play.google.com/store/apps/details?id=com.fuelsignal.activity" class="signup btn btn-lg " ><p class="sign-up">Join Now!</p></a>
+    <a href="javascript:void(0)" class="signup btn btn-lg " onclick="validateSignUp('fuelJoinFormBottom')"><p class="sign-up">Join Now!</p></a>
     </div>
   </div>
   <div class="applinks">
