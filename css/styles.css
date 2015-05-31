@@ -289,6 +289,7 @@ video {
 .background-image {
   width: 100%;
   min-width: 375px;
+  height: 400px;
 }
 
 .video_poster{
@@ -517,6 +518,7 @@ p.lead.or {
 
 .inner.cover.home {
   color: white;
+  z-index: 2;
 }
 
 .col-md-4.partners {
