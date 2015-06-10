@@ -289,7 +289,7 @@ video {
 .background-image {
   width: 100%;
   min-width: 375px;
-  height: 400px;
+  height: 500px;
 }
 
 .video_poster{
@@ -1005,7 +1005,7 @@ COLUMNS
 }
 .col-xs-3 {
   width: 100%;
-  padding-left: 10%;
+  padding-left: 20%;
 }
 .col-md-4.left.space-top.paragraph1 {
   width: 100%;
@@ -1040,7 +1040,7 @@ CONTAINERS
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
   box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-  max-width: 375px;
+  
 }
 
   /* Bump up size of carousel content */
