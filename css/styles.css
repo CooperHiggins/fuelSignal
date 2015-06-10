@@ -289,7 +289,7 @@ video {
 .background-image {
   width: 100%;
   min-width: 375px;
-  height: 500px;
+  height: 400px;
 }
 
 .video_poster{
@@ -1040,7 +1040,7 @@ CONTAINERS
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
   box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-  
+  max-width: 375px;
 }
 
   /* Bump up size of carousel content */
